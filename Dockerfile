@@ -1,2 +1,2 @@
 FROM ocaml/opam
-RUN  opam install oUnit
+RUN opam install oUnit
