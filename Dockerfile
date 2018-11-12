@@ -1,2 +1,3 @@
 FROM ocaml/opam
-RUN  opam install oUnit
+RUN  opam install -y oUnit 
+RUN  opam install -y utop
